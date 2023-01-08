@@ -102,7 +102,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Test', url="t.me/nflk_info)
+                    InlineKeyboardButton('Test', url="t.me/nflk_info")
                 ],[
                     InlineKeyboardButton('Bots LK Projects 🇱🇰', url=CHNL_LNK)
                   ]]

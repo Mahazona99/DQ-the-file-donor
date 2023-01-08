@@ -29,9 +29,9 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Test', url="t.me/nflk_info")
+                    InlineKeyboardButton('Owner 🔐', url="t.me/mahazonabot")
                 ],[
-                    InlineKeyboardButton('Bots LK Projects 🇱🇰', url=CHNL_LNK)
+                    InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -53,9 +53,9 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Test', url="t.me/nflk_info")
+                    InlineKeyboardButton('Owner 🔐', url="t.me/mahazonabot")
                 ],[
-                    InlineKeyboardButton('Bots LK Projects 🇱🇰', url=CHNL_LNK)
+                    InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -74,12 +74,12 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
+                    "අපගේ Updates Channel එක Subscribe කරලා එන්න", url=invite_link.invite_link
                 )
             ]
         ]
 
-        if message.command[1] != "subscribe":
+        if message.command[1] != "subscribe කරන්න මෙතනින්":
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
@@ -102,9 +102,9 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Test', url="t.me/nflk_info")
+                    InlineKeyboardButton('Owner 🔐', url="t.me/mahazonabot")
                 ],[
-                    InlineKeyboardButton('Bots LK Projects 🇱🇰', url=CHNL_LNK)
+                    InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -155,10 +155,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Support Group 🔆', url=GRP_LNK),
+                          InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/bots_lk")
+                          InlineKeyboardButton("Developer ⚙️", url="t.me/bots_lk")
                          ]
                         ]
                     )
@@ -174,10 +174,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Support Group 🔆', url=GRP_LNK),
+                          InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/bots_lk")
+                          InlineKeyboardButton("Developer ⚙️", url="t.me/bots_lk")
                          ]
                         ]
                     )
@@ -245,10 +245,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('Support Group 🔆', url=GRP_LNK),
+                      InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/bots_lk")
+                      InlineKeyboardButton("Developer ⚙️", url="t.me/bots_lk")
                      ]
                     ]
                 )
@@ -288,10 +288,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+              InlineKeyboardButton('Support Group 🔆', url=GRP_LNK),
+              InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/bots_lk")
+              InlineKeyboardButton("Developer ⚙️", url="t.me/bots_lk")
              ]
             ]
         )

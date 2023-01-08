@@ -29,7 +29,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('Test', url="t.me/nflk_info")
                 ],[
                     InlineKeyboardButton('Bots LK Projects 🇱🇰', url=CHNL_LNK)
                   ]]
@@ -53,7 +53,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('Test', url="t.me/nflk_info")
                 ],[
                     InlineKeyboardButton('Bots LK Projects 🇱🇰', url=CHNL_LNK)
                   ]]
@@ -102,7 +102,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('Test', url="t.me/nflk_info)
                 ],[
                     InlineKeyboardButton('Bots LK Projects 🇱🇰', url=CHNL_LNK)
                   ]]

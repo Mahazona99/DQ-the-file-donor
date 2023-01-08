@@ -1361,7 +1361,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("⚡ ඔයාගෙ Inbox බලන්න ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
 
     if offset != "":

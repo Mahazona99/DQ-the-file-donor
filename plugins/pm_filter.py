@@ -240,7 +240,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("⚡Inbox බලන්න⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("⚡ඔයාගෙ Inbox බලන්න⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -545,7 +545,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
                 else:
                     await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
-                await query.answer('ඔයාගෙ Inbox එකට Files එවලා තියෙන්නෙ, Check කරලා බලන්න 😉', show_alert=True)
+                await query.answer('ඔයාගෙ Inbox එකට File එක එවලා තියෙන්නෙ, Check කරලා බලන්න 😉', show_alert=True)
         except UserIsBlocked:
             await query.answer('Bot එක Unblock කරලා හිටපං මචං 😂!', show_alert=True)
         except PeerIdInvalid:
@@ -559,7 +559,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer('එහෙම File එකක් හොයාගන්න නෑනෙ 😐.')
+            return await query.answer('එහෙම File එකක් මේකෙ හොයාගන්න නෑනෙ 😐.')
         files = files_[0]
         title = files.file_name
         size = get_size(files.file_size)
@@ -583,10 +583,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                  InlineKeyboardButton('Support Group 🔆', url=GRP_LNK),
+                  InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                  InlineKeyboardButton("Developer ⚙️", url="t.me/bots_lk")
                  ]
                 ]
             )
@@ -683,7 +683,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         title = query.message.chat.title
         settings = await get_settings(grp_id)
         btn2 = [[
-                 InlineKeyboardButton("Cʜᴇᴄᴋ PM", url=f"t.me/{temp.U_NAME}")
+                 InlineKeyboardButton("⚡ ඔයාගෙ Inbox බලන්න ⚡", url=f"t.me/{temp.U_NAME}")
                ]]
         reply_markup = InlineKeyboardMarkup(btn2)
         await query.message.edit_text(f"<b>Yᴏᴜʀ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ ғᴏʀ {title} ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʏᴏᴜʀ PM</b>")
@@ -906,16 +906,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('Search කරන්න 🔎', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('Developer ⚙️', callback_data="owner_info"),
+                    InlineKeyboardButton('Support Group 🔆', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('Owner 🔐', url="t.me/mahazonabot")
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -993,8 +993,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('Support Group 🔆', url=GRP_LNK),
+            InlineKeyboardButton('Help ❤️', callback_data='source')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -1184,7 +1184,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/creatorbeatz")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/mahazonabot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 

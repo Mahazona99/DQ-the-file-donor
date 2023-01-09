@@ -1,11 +1,11 @@
 class script(object):
     START_TXT = """<b>😎 කොහොමද ඉතින් {} 🤘,
-මම තමයි <a href=https://t.me/{}>{}</a>, ඔයාට අවශ්‍ය TV Series 📺 | Movies 🎬 | Mod Apps 📲 සහ පොත්පත් 📚 හොයාගන්න 🔎 උදව් කරන්න මට පුලුවන් ✅.                    ♾ මගේ 🔶 Inline Mode එක හරහා ඔයාට අවශ්‍ය Files 📁 ලබාගන්න පුලුවන් වගේම, අපේ Support Group 🔆 එකට Join වෙලා 🔷 Auto Filter පහසුකම හරහා ඔයාට අවශ්‍ය Files 📁 පහසුවෙන්ම ලබාගන්න අවස්ථාව ලැබෙනවා ❤️</b>"""
+මම තමයි <a href=https://t.me/{}>{}</a>, ඔයාට අවශ්‍ය TV Series 📺 | Movies 🎬 | Mod Apps 📲 සහ පොත්පත් 📚 හොයාගන්න 🔎 උදව් කරන්න මට පුලුවන් ✅                        ➡️ මගේ #Inline_Mode එක හරහා ඔයාට අවශ්‍ය Files 📁 ලබාගන්න පුලුවන් වගේම, අපේ Support Group 🔆 එකට Join වෙලා #Auto_Filter පහසුකම හරහාත් ඔයාට අවශ්‍ය Files 📁 පහසුවෙන්ම ලබාගන්න අවස්ථාව ලැබෙනවා ❤️</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
+    ABOUT_TXT = """<b>✯ මගේ නම ❤️: {}
 ✯ Developer ⚙️: <a href='https://t.me/Bots_lk'>BOTS LK 🇱🇰</a>
 ✯ Support Group 🔆: <a href='https://t.me/+UVUxC01f6EYCQCzG'>Bots LK Support 🔆</a>
 ✯ Language ⚡: <a href='https://www.python.org/download/releases/3.0/'>Python 3</a>
@@ -13,11 +13,11 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ✯ Server 🌐: <a href='https://Aws.Amazon.com/'>AWS 🇺🇸</a>
 ✯ Build 💡: #JAX1 [ 📛 Ultra 📛 ]</b>"""
 
-    SOURCE_TXT = """<b>ɴᴏᴛᴇ:
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-- ꜱᴏᴜʀᴄᴇ - <a href="https://github.com/Joelkb/DQ-The-File-Donor">ʜᴇʀᴇ</a>
-Dᴇᴠᴇʟᴏᴘᴇʀ:
-- <a href="https://t.me/creatorbeatz">Jᴏᴇʟ ᠰ TɢX</a></b>"""
+    SOURCE_TXT = """<b>Main #Sponsor ❤️:
+- ශ්‍රී ලංකාවෙ 🇱🇰 අංක එකේ Crypto News Channel එකට මේ දැන්ම Join වෙන්න 👉 @Crypto_Sinhalen 🇱🇰 
+- නොමිලේ V.I.P 🌟 Signals ලබාගන්න 👉 - <a href="https://t.me/crypto_sinhale">සිංහලේ Signals 🇱🇰</a>
+Owner 🔐:
+- <a href="https://t.me/mahazonabot">#MahaZona 💀</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -191,16 +191,16 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+<b>📂 File එකේ නම : </b> <code>{file_name}</code>
 
 <b>
 ╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
+🔅 Join වෙන්න 👉 :  <a href="https://t.me/+UVUxC01f6EYCQCzG">Bots LK Support Group 🇱🇰</a>
 ╰─────── • ◆ • ───────╯
 
 =========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @DQ_The_File_Donor_Updates
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @DQ_The_File_Donor_Support
+▫️ Developer ⚙️ : @Bots_LK 🇱🇰
+▫️ Sponsor ❤️ : @Crypto_Sinhalen 🇱🇰
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """

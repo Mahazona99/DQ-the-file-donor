@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>😎 කොහොමද ඉතින් {} 🤘,
+    START_TXT = """<b>😎 ආහ් කොහොමද {} 🤘,
 මම තමයි <a href=https://t.me/{}>{}</a>, ඔයාට අවශ්‍ය TV Series 📺 | Movies 🎬 | Mod Apps 📲 සහ පොත්පත් 📚 හොයාගන්න 🔎 උදව් කරන්න මට පුලුවන් ✅                        ➡️ මගේ #Inline_Mode එක හරහා ඔයාට අවශ්‍ය Files 📁 ලබාගන්න පුලුවන් වගේම, අපේ Support Group 🔆 එකට Join වෙලා #Auto_Filter පහසුකම හරහාත් ඔයාට අවශ්‍ය Files 📁 පහසුවෙන්ම ලබාගන්න අවස්ථාව ලැබෙනවා ❤️</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
@@ -143,14 +143,14 @@ Nᴀᴍᴇ - {}"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>කොහොමද {} 😎🤘, ඔයාව අපේ {} Group එකට සාදරයෙන් පිළිගන්නවා 🙏 ඔයාට අවශ්‍ය File එකේ නම Type කරලා Group එකට Send කරන්න. Movies | Tv Series | Mod Apps | Softwares සහ පොත්පත් වගේ ගොඩක් දේවල් මේ Group එකෙන් හොයාගන්න පුළුවන් 😎🤘. මතක ඇතුව @Bots_LK 🇱🇰 Channel එකට Join වෙලා ඉන්න ❤️</b>"""
 
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴊᴏᴇʟ ᴋᴜʀɪᴀɴ ʙɪᴊᴜ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @creatorbeatz
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/creatorbeatz'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : #MahaZona
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Bots_LK
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/bots_lk'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -204,10 +204,10 @@ Nᴀᴍᴇ - {}"""
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {query}
-IMDb Data:
+<b>Type කරපු නම: {query}
+ඔයාට අවශ්‍ය File 📁 එක Select කර පසුව Inbox එක පරීක්ශා කරන්න 📩:
 
-🏷 Title: <a href={url}>{title}</a>
+🏷 නම: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""

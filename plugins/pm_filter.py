@@ -240,7 +240,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("⚡ඔයාගෙ Inbox බලන්න⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("📩 ඔයාගෙ Inbox බලන්න 📩", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -538,14 +538,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               InlineKeyboardButton('Support Group 🔆', url=GRP_LNK),
                               InlineKeyboardButton('Bots LK 🇱🇰', url=CHNL_LNK)
                            ],[
-                              InlineKeyboardButton("Developer ⚙️", url="t.me/creatorbeatz")
+                              InlineKeyboardButton("Developer ⚙️", url="t.me/mahazonabot")
                              ]
                             ]
                         )
                     )
                 else:
                     await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
-                await query.answer('ඔයාගෙ Inbox එකට File එක එවලා තියෙන්නෙ, Check කරලා බලන්න 😉', show_alert=True)
+                await query.answer('🌟 ඔයාගෙ Inbox 📩 එකට File 📁 එක එවලා තියෙන්නෙ මචං 😎🤘, Check කරලා බලන්න 😉', show_alert=True)
         except UserIsBlocked:
             await query.answer('Bot එක Unblock කරලා හිටපං මචං 😂!', show_alert=True)
         except PeerIdInvalid:
@@ -554,12 +554,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("අපේ Updates Channel එකට Join වෙලා එන්න මිත්‍රයා 😌", show_alert=True)
+            await query.answer("අපේ @Bots_LK 🇱🇰 Channel එකට Join වෙලා එන්න මිත්‍රයා 😌", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer('එහෙම File එකක් මේකෙ හොයාගන්න නෑනෙ 😐.')
+            return await query.answer('⚠️️ එහෙම File 📁 එකක් මේ Bot එකේ හොයාගන්න නෑනෙ මිත්‍රයා 🤷. පොඩ්ඩක් @MahaZonaBot එකට Message එකක් දාලා අහන්න 📨.')
         files = files_[0]
         title = files.file_name
         size = get_size(files.file_size)
@@ -683,7 +683,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         title = query.message.chat.title
         settings = await get_settings(grp_id)
         btn2 = [[
-                 InlineKeyboardButton("⚡ ඔයාගෙ Inbox බලන්න ⚡", url=f"t.me/{temp.U_NAME}")
+                 InlineKeyboardButton("📩 ඔයාගෙ Inbox බලන්න 📩", url=f"t.me/{temp.U_NAME}")
                ]]
         reply_markup = InlineKeyboardMarkup(btn2)
         await query.message.edit_text(f"<b>Yᴏᴜʀ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ ғᴏʀ {title} ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʏᴏᴜʀ PM</b>")
@@ -1325,17 +1325,17 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'Files 📁', 'reqinfo'),
+                    InlineKeyboardButton(f'ගන්න', 'minfo'),
+                    InlineKeyboardButton(f'විදිහ ✅', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'ගන්න', 'minfo'),
+                    InlineKeyboardButton(f'විදිහ ✅', 'sinfo')
                 ]
             )
                 
@@ -1346,22 +1346,22 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'Files 📁', 'reqinfo'),
+                    InlineKeyboardButton(f'ගන්න', 'minfo'),
+                    InlineKeyboardButton(f'විදිහ ✅', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'ගන්න', 'minfo'),
+                    InlineKeyboardButton(f'විදිහ ✅', 'sinfo')
                 ]
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ ඔයාගෙ Inbox බලන්න ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("📩 ඔයාගෙ Inbox බලන්න 📩", url=f"https://t.me/{temp.U_NAME}")
     ])
 
     if offset != "":

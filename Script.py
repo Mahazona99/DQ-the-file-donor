@@ -175,9 +175,9 @@ Movies/Series 🎬 Search කරන ආකාරය
 පොත්පත් 📚 Search කරන ආකාරය
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
-Singlish,සිංහල හෝ English වලින් පොතේ නම හරියට Type කරලා අපේ Group එකට Send කරන්න. 
+Singlish,සිංහල,English වලින් නම හරියට Type කරලා Group එවන්න. 
 
-උදාහරණ : 👉 Ape Gama | සිංහලෙන් නම් 👉 අපේ ගම 
+උදාහරණ : 👉 Ape Gama | 👉 අපේ ගම 
 
 🚯 මේවා Type කරන්නෙපා ':(!,./)"""
 

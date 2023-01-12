@@ -126,13 +126,13 @@ Nᴀᴍᴇ - {}"""
 
 ඔයා Type කලා හරිද කියලා බලන්න ආපහු 😃
 
-🔥 Movies 🎬 Request කරන ආකාරය 👇
+Movies/Series 🎬 Search කරන ආකාරය 
 
-උදාහරණ : Uncharted හෝ Uncharted 2022 හෝ Uncharted En
+උදාහරණ : Uncharted | Breaking Bad
 
-🔥 Tv Series 📺 Request කරන ආකාරය 👇
+පොත්පත් 📚 Search කරන ආකාරය 
 
-උදාහරණ : Loki S01 හෝ Loki S01E04 හෝ Lucifer S03E24
+උදාහරණ : Singlish,සිංහල හෝ English වලින් පොතේ නම හරියටම Type කරලා send කරන්න | Ape Gama | අපේ ගම
 
 🚯 මේවා Type කරන්නෙපා ':(!,./)</b>"""
 
@@ -141,7 +141,7 @@ Nᴀᴍᴇ - {}"""
 
     MVE_NT_FND = """ඔයා හොයන File එක නම් මගෙ Database එකෙන් හොයාගන්න බැරි වුණා 😕..."""
 
-    TOP_ALRT_MSG = """ඔයා හොයන File එක මගේ Database එකේ තියනවද කියලා බලන ගමන් ඉන්නෙ 🔎..."""
+    TOP_ALRT_MSG = """File එක Database එකේ හොයන ගමන් ඉන්නෙ 🔎..."""
 
     MELCOW_ENG = """<b>ඉතින් කොහොමද {} 😊, ඔයාව අපේ {} Group එකට සාදරයෙන් පිළිගන්නවා 🙏 ඔයාට අවශ්‍ය File එකේ නම Type කරලා Group එකට Send කරන්න. 👉 | Movies 🎬 | Tv Series 📺 | Mod Apps 📲 | Softwares 🖥️ සහ පොත්පත් 📚 ඇතුළු ගොඩක් Files මේ Group එකෙන් හොයාගන්න පුළුවන් 😎🤘. මතක ඇතුව @Bots_LK 🇱🇰 Channel එකට Join වෙලා ඉන්න ❤️</b>"""
 
@@ -164,7 +164,7 @@ Nᴀᴍᴇ - {}"""
 Movies/Series 🎬 Search කරන ආකාරය
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
-Google 🌐 එකට ගිහිල්ලා ඔයාට අවශ්‍ය Movie එකේ හෝ Series එකේ නම හරියට හොයාගෙන ඇවිත් අපේ Group එකට Send කරන්න 📲
+අදාල Movie එක හෝ Series එකේ නම හරියටම Type කරලා Group එකට send කරන්න
 
 උදාහරණ : Uncharted | Breaking Bad
 
@@ -175,9 +175,9 @@ Google 🌐 එකට ගිහිල්ලා ඔයාට අවශ්‍ය M
 පොත්පත් 📚 Search කරන ආකාරය
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
-ඔයා හොයන්නෙ සිංහල පොතක් නම් එකේ නම Singlish වලින් හෝ සිංහලෙන් හරියට Type කරලා අපේ Group එකට Send කරන්න. English පොතක් නම් පොතේ නම හරියට English වලින් Type කරලා එවන්න
+Singlish,සිංහල හෝ English වලින් පොතේ නම හරියට Type කරලා අපේ Group එකට Send කරන්න. 
 
-උදාහරණ : Singlish වලින් නම් 👉 Ape Gama | සිංහලෙන් නම් 👉 අපේ ගම | Tip 👉 ගොඩක් වෙලාවට Singlish වලින් Type කලාම පොත් ඉක්මනින්ම සහ පහසුවෙන්ම හොයාගන්න පුලුවන් 📚
+උදාහරණ : 👉 Ape Gama | සිංහලෙන් නම් 👉 අපේ ගම 
 
 🚯 මේවා Type කරන්නෙපා ':(!,./)"""
 

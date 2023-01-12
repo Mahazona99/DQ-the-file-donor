@@ -61,7 +61,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Botගෙ Inbox 📩 එකට Type කරලා එවන්න එපා 😕. Search කරන්න🔎 Option එක හරහා හෝ අපේ Bots LK 🇱🇰 Support Group 🔆 එකට Join වෙලා පහසුවෙන්ම ඔයාට අවශ්‍ය File 📁 එක ලබා ගන්න</b>")
+    await message.reply_text("<b>Botගෙ Inbox 📩 එකට ඔයාගෙ Request එක එවන්න එපා 😕. Search කරන්න🔎 Option එක හරහා හෝ අපේ Bots LK 🇱🇰 Support Group 🔆 එකට Join වෙලා පහසුවෙන්ම ඔයාට අවශ්‍ය File 📁 එක ලබා ගන්න පුලුවන්</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
@@ -118,7 +118,7 @@ async def next_page(bot, query):
                 [
                     InlineKeyboardButton(f'Files 📁', 'reqinfo'),
                     InlineKeyboardButton(f'ගන්න', 'minfo'),
-                    InlineKeyboardButton(f'විදිහ ✅', 'sinfo')
+                    InlineKeyboardButton(f'ක්‍රමය ✅', 'sinfo')
                 ]
             )
 
@@ -126,7 +126,7 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'ගන්න', 'minfo'),
-                    InlineKeyboardButton(f'විදිහ ✅', 'sinfo')
+                    InlineKeyboardButton(f'ක්‍රමය ✅', 'sinfo')
                 ]
             )
                 
@@ -139,7 +139,7 @@ async def next_page(bot, query):
                 [
                     InlineKeyboardButton(f'Files 📁', 'reqinfo'),
                     InlineKeyboardButton(f'ගන්න', 'minfo'),
-                    InlineKeyboardButton(f'විදිහ ✅', 'sinfo')
+                    InlineKeyboardButton(f'ක්‍රමය ✅', 'sinfo')
                 ]
             )
 
@@ -147,7 +147,7 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'ගන්න', 'minfo'),
-                    InlineKeyboardButton(f'විදිහ ✅', 'sinfo')
+                    InlineKeyboardButton(f'ක්‍රමය ✅', 'sinfo')
                 ]
             )
     try:
@@ -545,7 +545,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
                 else:
                     await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
-                await query.answer('🌟 ඔයාගෙ Inbox 📩 එකට File 📁 එක එවලා තියෙන්නෙ මචං 😎🤘, Check කරලා බලන්න ✅', show_alert=True)
+                await query.answer('🌟 ඔයාගෙ Inbox 📩 එකට File 📁 එක මම එවලා තියෙන්නෙ මචං 😎🤘, Check කරලා බලන්න ✅', show_alert=True)
         except UserIsBlocked:
             await query.answer('Bot එක Unblock කරලා හිටපං මචං 😂!', show_alert=True)
         except PeerIdInvalid:

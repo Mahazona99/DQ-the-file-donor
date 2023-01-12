@@ -175,7 +175,7 @@ Movies/Series 🎬 Search කරන ආකාරය
 පොත්පත් 📚 Search කරන ආකාරය
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
-Singlish,සිංහල,English වලින් නම හරියට Type කරලා Group එවන්න. 
+Singlish,සිංහල,English වලින් නම හරියට Type කරලා Group එකට එවන්න. 
 
 උදාහරණ : 👉 Ape Gama | 👉 අපේ ගම 
 

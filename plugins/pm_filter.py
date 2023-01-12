@@ -61,7 +61,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Botගෙ Inbox 📩 එකට Type කරලා එවන්න එපා 😕. "Search කරන්න🔎" Option එක හරහා හෝ අපේ Bots LK 🇱🇰 Support Group 🔆 එකට Join වෙලා පහසුවෙන්ම ඔයාට අවශ්‍ය File 📁 එක ලබා ගන්න</b>")
+    await message.reply_text("<b>Botගෙ Inbox 📩 එකට Type කරලා එවන්න එපා 😕. Search කරන්න🔎 Option එක හරහා හෝ අපේ Bots LK 🇱🇰 Support Group 🔆 එකට Join වෙලා පහසුවෙන්ම ඔයාට අවශ්‍ය File 📁 එක ලබා ගන්න</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"

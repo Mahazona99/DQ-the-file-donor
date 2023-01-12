@@ -74,12 +74,12 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "අපගේ Updates Channel එක Subscribe කරලා එන්න", url=invite_link.invite_link
+                    "Updates Channel එකට Join වෙන්න", url=invite_link.invite_link
                 )
             ]
         ]
 
-        if message.command[1] != "subscribe කරන්න මෙතනින්":
+        if message.command[1] != "Join වෙන්න මෙතනින්":
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
